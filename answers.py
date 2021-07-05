@@ -43,7 +43,6 @@ def is_palindrome( s ):
         else:
             return False
 
-
 def main():
     exercise_1(input_list=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
@@ -55,8 +54,6 @@ def main():
 
     num = 323
     print(f" Is palindrome {num} ? {'yes' if is_palindrome(str(num)) else 'no'}")
-
-
 
 
 if __name__ == "__main__":
