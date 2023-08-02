@@ -10,6 +10,7 @@
 # Cube every number of the said list:
 # [1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]
 
+
 def exercise_1(input_list=[]):
     squared_list = list(map(lambda x: x * x, input_list))
     print(squared_list)        # [2, 4, 6, 8, 10]
